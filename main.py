@@ -8,9 +8,9 @@ st.set_page_config(layout='wide')
 
 st.title('The Best Company')
 st.write('oioipoio')
-st.subheader('Our Team')
+st.header('Our Team')
 
-col1, _, col2, _, col3 = st.columns([2, 0.5, 2, 0.5, 2])
+col1, col2, col3 = st.columns(3)
 
 with col1:
     for index in range(4):
