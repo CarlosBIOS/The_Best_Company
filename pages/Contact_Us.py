@@ -18,5 +18,5 @@ From: {user_email}
 Topic: {discust}
 {user_message}
 """
-        send_emails(message)
+        send_emails(message.encode('utf-8'))
         st.info('Your email was succefully send it')

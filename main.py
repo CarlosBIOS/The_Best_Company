@@ -2,12 +2,10 @@ import streamlit as st
 import pandas
 
 data: dict = pandas.read_csv('data.csv').to_dict()
-print(data)
 
 st.set_page_config(layout='wide')
 
 st.title('The Best Company')
-st.write('oioipoio')
 st.header('Our Team')
 
 col1, col2, col3 = st.columns(3)
